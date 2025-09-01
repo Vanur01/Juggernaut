@@ -357,7 +357,7 @@ const Footer = () => {
               textAlign: isMobile ? 'center' : 'left'
             }}
           >
-            © {new Date().getFullYear()} Juggernaut. All rights reserved.
+            © {new Date().getFullYear()} JEPL Engineering Solutions. All rights reserved.
           </Typography>
           <Box sx={{ 
             display: "flex", 
