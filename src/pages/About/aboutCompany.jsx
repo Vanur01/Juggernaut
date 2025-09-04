@@ -25,8 +25,8 @@ const AboutCompany = () => (
       style={{
         maxWidth: "full",
         margin: "0 auto",
-        paddingLeft: "100px",
-        paddingRight: "100px",
+        // paddingLeft: "100px",
+        // paddingRight: "100px",
         textAlign: "center",
       }}
     >
