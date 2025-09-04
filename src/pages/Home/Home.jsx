@@ -17,7 +17,7 @@ import Sustainability from "./Sustainability";
 import Juggernaut from "./Juggernaut";
 import TestimonialSlider from "./Testominals";
 import AboutCompany from "./aboutCompany";
-import banner from "../../assets/Home/banner.jpeg";
+import banner from "../../assets/Home/banner.png";
 import banner2 from "../../assets/Home/Frame2.png";
 import banner3 from "../../assets/Home/Frame3.png";
 import banner4 from "../../assets/Home/Frame4.jpg";
@@ -29,41 +29,42 @@ import banner6 from "../../assets/Home/Frame6.jpg";
 import { useNavigate } from "react-router-dom";
 
 
+
 const backgrounds = [
   {
     id: 1,
     bgImage: `url(${banner})`,
-    title: "JEL-866H-E Electric Excavator",
+    title: "JUGGERNAUT | ECO-FRIENDLY POWER MEETS PERFORMANCE ",
     subtitle: "Powerful 6-ton electric excavator with zero emissions",
   },
   {
     id: 2,
     bgImage: `url(${banner2})`,
-    title: "WHEEL LOADER – 2T TO 7.5T",
+    title: "JUGGERNAUT | ELECTRIC WHEEL LOADER – 2T TO 7.5T",
     subtitle: "High-performance 5-ton electric wheel loader",
   },
   {
     id: 3,
     bgImage: `url(${banner3})`,
-    title: "FORKLIFT - 2T TO 50T",
+    title: "JUGGERNAUT | ELECTRIC FORKLIFT - 2T TO 50T",
     subtitle: "Versatile 3-ton electric excavator for urban projects",
   },
   {
     id: 4,
     bgImage: `url(${banner4})`,
-    title: "EXCAVATOR – 13T TO 50T",
+    title: "JUGGERNAUT | ELECTRIC EXCAVATOR – 13T TO 50T", 
     subtitle: "Versatile 3-ton electric excavator for urban projects",
   },
   {
     id: 5,
     bgImage: `url(${banner5})`,
-    title: "REACH STACKER – 45T",
+    title: "JUGGERNAUT | ELECTRIC REACH STACKER – 45T",
     subtitle: "Versatile 3-ton electric excavator for urban projects",
   },
   {
-    id: 4,
+    id: 6,
     bgImage: `url(${banner6})`,
-    title: "DUMP TRUCK – 60T /70T/240T",
+    title: "JUGGERNAUT | ELECTRIC DUMP TRUCK – 60T /70T/240T",
     subtitle: "Versatile 3-ton electric excavator for urban projects",
   },
 ];
@@ -276,7 +277,7 @@ const HeroSection = () => {
                     justifyContent={isMobile ? "center" : "flex-end"}
                     alignItems="center"
                   >
-                    <Button
+                    {/* <Button
                       onClick={exploreProduct}
                       variant="contained"
                       size={isMobile ? "small" : "large"} // 👈 smaller on mobile
@@ -300,7 +301,7 @@ const HeroSection = () => {
                       }}
                     >
                       Explore Products
-                    </Button>
+                    </Button> */}
 
                     <Button
                       onClick={contact}

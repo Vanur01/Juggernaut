@@ -13,26 +13,16 @@ import {
   Chip
 } from '@mui/material';
 import { motion } from 'framer-motion';
-import Excavator1 from '../assets/Service/excavator-1.png'
-import Excavator2 from '../assets/Service/excavator-2.png'
-
+import REACHSTACKER from '../assets/Service/REACHSTACKER.png'
 
 
 const products = [
   {
     id: 1,
-    image: Excavator1,
-    title: 'Electric EXCAVATOR– 3T TO 25T',
-    specs: ['3.2 m³ Bucket Capacity', '17700 ± 300 kg Weight', 'Multiple battery Option'],
+    image: REACHSTACKER,
+    title: 'HNRS -4531E Series Electric Reach Stacker : 45T',
+    specs: ['Weight / Working speeds'],
     features: ['Eco-friendly', 'Low noise', 'Fast charging'],
-    exploreLink: '/contact',
-  },
-  {
-    id: 2,
-    image: Excavator2,
-    title: 'Electric EXCAVATOR REACH STACKER – 36T TO 50T',
-    specs: ['3.2 m³ Bucket Capacity', '6600 kg Weight', 'Multiple battery Option'],
-    features: ['Maneuverable', 'Indoor use', 'Ergonomic controls'],
     exploreLink: '/contact',
   },
 ];
@@ -66,8 +56,7 @@ const itemVariants = {
   }
 };
 
-const Excavator = () => {
-
+const PortEquipment = () => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
 
@@ -283,4 +272,4 @@ const Excavator = () => {
   );
 };
 
-export default Excavator;
+export default PortEquipment;

@@ -8,9 +8,8 @@ import MilestonesTimeline from "./MilestonesTimeline";
 import WorldwideReach from "./WorldwideReach";
 import NextFrontier from "./NextFrontier";
 import WhyPartner from "./WhyPartner";
-import {Link} from 'react-router-dom'
-
-
+import { Link } from "react-router-dom";
+import AboutCompany from "./aboutCompany";
 
 const ElectricRevolution = () => {
   const theme = useTheme();
@@ -112,7 +111,15 @@ const ElectricRevolution = () => {
                 px: { xs: 2, md: 0 },
               }}
             >
-              Juggernaut Equipment Pvt Ltd, Established in 2022 in Odisha, the Steel, Mining & Aluminum hub of India with its Corporate Head Office around the country’s capital in Gurgaon. JEPL has joined hands with multiple global giants to Manufacture & revolutionize the India’s Construction equipment by offer a range of Electric Machines Excavators, Wheel Loaders, Forklifts. JEPL shall be involved in Sales – Machines & Parts & After Sales Service of the machines. The machines shall be manufactured in India by January 2026
+              Juggernaut Equipment Pvt Ltd, Established in 2022 in Odisha, the
+              Steel, Mining & Aluminum hub of India with its Corporate Head
+              Office around the country’s capital in Gurgaon. JEPL has joined
+              hands with multiple global giants to Manufacture & revolutionize
+              the India’s Construction equipment by offer a range of Electric
+              Machines Excavators, Wheel Loaders, Forklifts. JEPL shall be
+              involved in Sales – Machines & Parts & After Sales Service of the
+              machines. The machines shall be manufactured in India by January
+              2026
             </Typography>
 
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
@@ -144,12 +151,14 @@ const ElectricRevolution = () => {
         </Container>
       </Box>
       <CompanyOverview />
+      <AboutCompany />
+
       {/* <StrategicAlliance /> */}
       <RDInnovation />
       {/* <MilestonesTimeline /> */}
-      <WorldwideReach />
-      <NextFrontier />
-      <WhyPartner />
+      {/* <WorldwideReach /> */}
+      {/* <NextFrontier /> */}
+      {/* <WhyPartner /> */}
     </Box>
   );
 };

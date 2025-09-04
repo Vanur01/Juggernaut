@@ -37,9 +37,9 @@ const Navbar = () => {
       dropdown: [
         { name: "Excavators", path: "/products/excavators" },
         { name: "Forklifts", path: "/products/forklifts" },
-        { name: "Port Equipment", path: "/products/forklifts" },
+        { name: "Port Equipment", path: "/products/portEquipment" },
         { name: "Wheel Loaders", path: "/products/wheel-loaders" },
-        { name: "Mining Tippers", path: "/products/wheel-loaders" },
+        { name: "Mining Tippers", path: "/products/MiningTippers" },
       ]
     },
     { name: "Sustainability", path: "/sustainability" },

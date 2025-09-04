@@ -15,7 +15,8 @@ import JEL833HEDetails from './pages/JEL833HEDetails/JEL833HE'
 // import UnderConstruction from './pages/UnderStruction';
 import ForkiltsBanner from './pages/ForkiltsBanner'
 import ExcavatorsBanner from './pages/ExcavatorsBanner';
-
+import PortEquipmentBanner from './pages/PortEquipmentBanner';
+import MiningTippers from './pages/MiningTippers';
 
 
 function App() {
@@ -37,6 +38,8 @@ function App() {
         <Route path='/services/JEL833HE' element={<JEL833HEDetails />} />
         <Route path='/products/forklifts' element={<ForkiltsBanner />} />
         <Route path='/products/excavators' element={<ExcavatorsBanner />} />
+        <Route path='/products/portEquipment' element={<PortEquipmentBanner />} />
+        <Route path='/products/MiningTippers' element={<MiningTippers />} />
       </Routes>
       <Footer />
     </>
