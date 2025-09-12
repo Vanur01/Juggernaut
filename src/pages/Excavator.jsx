@@ -30,7 +30,7 @@ const products = [
   {
     id: 2,
     image: Excavator1,
-    title: 'Electric EXCAVATOR – 36T TO 50T',
+    title: 'Electric EXCAVATOR – 25T TO 50T',
     specs: ['3.2 m³ Bucket Capacity', '6600 kg Weight', 'Multiple battery Option'],
     features: ['Maneuverable', 'Indoor use', 'Ergonomic controls'],
     exploreLink: '/contact',
