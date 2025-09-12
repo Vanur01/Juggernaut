@@ -32,7 +32,7 @@ const products = [
   {
     id: 2,
     image: JEL866HE,
-    title: "JEL 866 Electric Wheel Loader",
+    title: "JEL 866H-E Electric Wheel Loader",
     specs: ["1.2 m³ Bucket Capacity", "17700 ± 300 kg Weight"],
     features: ["Port operations", "High stability", "Precision controls"],
     exploreLink: "/contact",
@@ -48,7 +48,7 @@ const products = [
   {
     id: 4,
     image: JEL833HE,
-    title: "JEL 833 Electric Wheel Loader",
+    title: "JEL 833H-E Electric Wheel Loader",
     specs: ["1.8 m³ Bucket Capacity", "8300±100 kg Weight"],
     features: ["Agile", "Space-saving", "Low maintenance"],
     exploreLink: "/contact",

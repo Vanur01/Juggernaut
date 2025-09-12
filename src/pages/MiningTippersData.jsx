@@ -19,7 +19,24 @@ const products = [
   {
     id: 1,
     image: mining,
-    title: "Electric Mining Tippers",
+    title: "Electric Mining Tippers - 60T TO 70T",
+    specs: [
+      "60 Ton Payload",
+      "350–422 kWh LFP Battery",
+      "Gradeability up to 35%",
+    ],
+    features: [
+      "Fast charging",
+      "Battery swap in 5 min",
+      "Hydro-pneumatic suspension",
+      "Zero emissions",
+    ],
+    exploreLink: "/contact",
+  },
+    {
+    id: 1,
+    image: mining,
+    title: "Electric Mining Tippers - 105T TO 245T",
     specs: [
       "60 Ton Payload",
       "350–422 kWh LFP Battery",
