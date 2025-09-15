@@ -20,8 +20,8 @@ const products = [
   {
     id: 1,
     image: REACHSTACKER,
-    title: 'HNRS -4531E Series Electric Reach Stacker : 45T',
-    specs: ['Weight / Working speeds'],
+    title: 'HNRS - 4531E Series Electric Reach Stacker : 45T',
+    specs: [],
     features: ['Eco-friendly', 'Low noise', 'Fast charging'],
     exploreLink: '/contact',
   },
