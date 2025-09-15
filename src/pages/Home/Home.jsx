@@ -61,12 +61,12 @@ const backgrounds = [
     title: "JUGGERNAUT | ELECTRIC REACH STACKER – 45T",
     subtitle: "Versatile 3-ton electric excavator for urban projects",
   },
-  {
-    id: 6,
-    bgImage: `url(${banner6})`,
-    title: "JUGGERNAUT | ELECTRIC DUMP TRUCK – 60T /70T/240T",
-    subtitle: "Versatile 3-ton electric excavator for urban projects",
-  },
+  // {
+  //   id: 6,
+  //   bgImage: `url(${banner6})`,
+  //   title: "JUGGERNAUT | ELECTRIC DUMP TRUCK – 60T /70T/240T",
+  //   subtitle: "Versatile 3-ton electric excavator for urban projects",
+  // },
 ];
 
 const HeroSection = () => {

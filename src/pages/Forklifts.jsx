@@ -22,7 +22,9 @@ const products = [
     id: 1,
     image: Forkilit1,
     title: 'JEF Pro 156V Series Electric Forklifts: 2T T0 5T',
-    specs: [],
+    specs: [
+      // 'Bucket Capacity : 3.2 m³ ', 'Weight : 17700 ± 300 kg '
+    ],
     features: ['Eco-friendly', 'Low noise', 'Fast charging'],
     exploreLink: '/contact',
   },
@@ -30,7 +32,9 @@ const products = [
     id: 2,
     image: Forkilit1,
     title: 'JEF Pro 156V Series Electric Forklifts: 5T T0 10T',
-    specs: [],
+    specs: [
+      // 'Bucket Capacity : 3.2 m³ ', 'Weight : 17700 ± 300 kg '
+    ],
     features: ['Eco-friendly', 'Low noise', 'Fast charging'],
     exploreLink: '/contact',
   },
@@ -38,7 +42,9 @@ const products = [
     id: 3,
     image: Forkilit2,
     title: 'JHNF-EL Series Electric Heavy Duty Forklift Series: 10T TO 50T',
-    specs: [],
+    specs: [
+      // 'Bucket Capacity : 3.2 m³ ', 'Weight : 6600 kg '
+    ],
     features: ['Maneuverable', 'Indoor use', 'Ergonomic controls'],
     exploreLink: '/contact',
   },
