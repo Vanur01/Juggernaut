@@ -7,6 +7,7 @@ import banner from "../assets/Home/service_banner.png";
 const ForkiltsBanner = () => {
   return (
     <Box>
+      
       <Box
         sx={{
           backgroundImage: `url(${banner})`,
