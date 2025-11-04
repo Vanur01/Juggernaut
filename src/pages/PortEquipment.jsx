@@ -104,7 +104,7 @@ const PortEquipment = () => {
                 opacity: 0.9
               }}
             >
-              Cutting-edge construction equipment engineered for maximum performance and reliability
+              Cutting-edge equipment engineered for maximum performance and reliability
             </Typography>
           </Box>
         </motion.div>
@@ -220,28 +220,39 @@ const PortEquipment = () => {
                       </Box>
 
                       {/* Features */}
-                      <Box sx={{ 
-                        display: 'flex',
-                        flexWrap: 'wrap',
-                        gap: 1,
-                        mb: 3
-                      }}>
+                      <Box sx={{ mb: 2 }}>
                         {product.features.map((feature, index) => (
-                          <Chip
+                          <Box
                             key={index}
-                            label={feature}
-                            size="small"
                             sx={{
-                              backgroundColor: 'rgba(139, 195, 74, 0.1)',
-                              color: '#5a9216',
-                              fontWeight: 500,
-                              fontSize: '0.7rem',
-                              height: 24
+                              display: "flex",
+                              alignItems: "center",
+                              mb: 1,
+                              "&:last-child": { mb: 0 },
                             }}
-                          />
+                          >
+                            <Box
+                              sx={{
+                                width: 6,
+                                height: 6,
+                                backgroundColor: "#8bc34a",
+                                borderRadius: "50%",
+                                mr: 1.5,
+                              }}
+                            />
+                            <Typography
+                              variant="body2"
+                              sx={{
+                                color: theme.palette.text.secondary,
+                                fontSize: "0.85rem",
+                              }}
+                            >
+                              {feature}
+                            </Typography>
+                          </Box>
                         ))}
                       </Box>
-
+                      
                       <Button
                         fullWidth
                         variant="contained"

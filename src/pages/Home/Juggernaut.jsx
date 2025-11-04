@@ -30,12 +30,12 @@ const tabContent = {
     {
       icon: <PublicIcon />,
       title: 'Global Partnerships',
-      description: 'Worldwide network of trusted partners',
+      description: '',
     },
     {
       icon: <MapIcon />,
       title: 'PAN-India Network',
-      description: 'Comprehensive service coverage across India',
+      description: '',
     },
   ],
   'Innovation & Technology': [
@@ -140,7 +140,7 @@ const Juggernaut = () => {
             borderColor: 'rgba(0,0,0,0.1)', 
             mb: { xs: 4, md: 6 },
             display: 'flex',
-            justifyContent: 'left'
+            justifyContent: 'center'
           }}>
             <Tabs
               value={activeTab}
@@ -170,7 +170,7 @@ const Juggernaut = () => {
         </motion.div>
 
         {/* Dynamic Content Cards - 3 per row */}
-        <Grid container spacing={{ xs: 3, md: 3 }} justifyContent="left">
+        <Grid container spacing={{ xs: 3, md: 3 }} justifyContent="center">
           {tabContent[activeTab].map((item, index) => (
             <Grid item xs={12} sm={6} md={4} key={index}>
               <motion.div

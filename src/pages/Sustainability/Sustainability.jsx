@@ -190,21 +190,7 @@ const HeroSection = () => {
             </motion.span> a Greener Future
           </Typography>
 
-          <Typography 
-            component={motion.p}
-            variants={itemVariants}
-            variant="subtitle1"
-            sx={{ 
-              mb: { xs: 1, sm: 2 }, 
-              fontSize: { xs: 14, sm: 16, md: 18 },
-              color: '#e0e0e0',
-              maxWidth: 700,
-              mx: 'auto',
-              px: { xs: 1, sm: 0 }
-            }}
-          >
-            Electric Heavy Machinery in Green Industrial Setting
-          </Typography>
+        
 
           <Typography 
             component={motion.p}
@@ -219,7 +205,7 @@ const HeroSection = () => {
               px: { xs: 1, sm: 0 }
             }}
           >
-            Together, we're reshaping industries with sustainable clean-technology solutions.
+            India's first electric mining, material handling and port equipment company
           </Typography>
         </Box>
 

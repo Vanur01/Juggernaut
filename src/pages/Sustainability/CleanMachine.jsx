@@ -104,16 +104,16 @@ const CleanMachine = () => {
         backgroundColor: '#f9fafb',
         position: 'relative',
         overflow: 'hidden',
-        '&::before': {
-          content: '""',
-          position: 'absolute',
-          top: 0,
-          right: 0,
-          width: '40%',
-          height: '100%',
-          background: 'linear-gradient(135deg, rgba(25, 118, 210, 0.05) 0%, transparent 100%)',
-          zIndex: 0
-        }
+        // '&::before': {
+        //   content: '""',
+        //   position: 'absolute',
+        //   top: 0,
+        //   right: 0,
+        //   width: '40%',
+        //   height: '100%',
+        //   background: 'linear-gradient(135deg, rgba(25, 118, 210, 0.05) 0%, transparent 100%)',
+        //   zIndex: 0
+        // }
       }}
     >
       {/* Section Icon */}
@@ -166,7 +166,7 @@ const CleanMachine = () => {
           fontSize: { xs: '0.9rem', sm: '1rem' }
         }}
       >
-        Our electric heavy machinery delivers industrial power without the environmental impact.
+        Our electric heavy machinery delivers fantastic power with minimum environmental impact.
         Experience the next generation of clean, efficient equipment.
       </Typography>
 

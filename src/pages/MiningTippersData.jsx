@@ -13,41 +13,33 @@ import {
   Chip,
 } from "@mui/material";
 import { motion } from "framer-motion";
-import mining from "../assets/Service/mining.png";
+import blueTruck from "../assets/Service/blueTruck.png";
+import whiteTruck from "../assets/Service/whiteTruck.png";
 
 const products = [
   {
     id: 1,
-    image: mining,
+    image: blueTruck,
     title: "Electric Mining Tippers - 60T TO 70T",
     specs: [
       // "60 Ton Payload",
       // "350–422 kWh LFP Battery",
       // "Gradeability up to 35%",
     ],
-    features: [
-      "Fast charging",
-      "Battery swap in 5 min",
-      "Hydro-pneumatic suspension",
-      "Zero emissions",
-    ],
+    features: ["Fast charging", "High Endurance"],
     exploreLink: "/contact",
   },
-    {
+  {
     id: 1,
-    image: mining,
-    title: "Electric Mining Tippers - 105T TO 245T",
+    image: whiteTruck,
+    title: "Electric Mining Tippers - 105T TO 240T",
     specs: [
       // "60 Ton Payload",
       // "350–422 kWh LFP Battery",
       // "Gradeability up to 35%",
     ],
-    features: [
-      "Fast charging",
-      "Battery swap in 5 min",
-      "Hydro-pneumatic suspension",
-      "Zero emissions",
-    ],
+    features: ["Fast charging", "High Endurance"],
+
     exploreLink: "/contact",
   },
 ];
@@ -129,8 +121,8 @@ const MiningTippersData = () => {
                 opacity: 0.9,
               }}
             >
-              Cutting-edge construction equipment engineered for maximum
-              performance and reliability
+              Cutting-edge equipments engineered for maximum performance and
+              reliability
             </Typography>
           </Box>
         </motion.div>
@@ -252,27 +244,36 @@ const MiningTippersData = () => {
                       </Box>
 
                       {/* Features */}
-                      <Box
-                        sx={{
-                          display: "flex",
-                          flexWrap: "wrap",
-                          gap: 1,
-                          mb: 3,
-                        }}
-                      >
+                      <Box sx={{ mb: 2 }}>
                         {product.features.map((feature, index) => (
-                          <Chip
+                          <Box
                             key={index}
-                            label={feature}
-                            size="small"
                             sx={{
-                              backgroundColor: "rgba(139, 195, 74, 0.1)",
-                              color: "#5a9216",
-                              fontWeight: 500,
-                              fontSize: "0.7rem",
-                              height: 24,
+                              display: "flex",
+                              alignItems: "center",
+                              mb: 1,
+                              "&:last-child": { mb: 0 },
                             }}
-                          />
+                          >
+                            <Box
+                              sx={{
+                                width: 6,
+                                height: 6,
+                                backgroundColor: "#8bc34a",
+                                borderRadius: "50%",
+                                mr: 1.5,
+                              }}
+                            />
+                            <Typography
+                              variant="body2"
+                              sx={{
+                                color: theme.palette.text.secondary,
+                                fontSize: "0.85rem",
+                              }}
+                            >
+                              {feature}
+                            </Typography>
+                          </Box>
                         ))}
                       </Box>
 

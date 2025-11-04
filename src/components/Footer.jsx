@@ -325,7 +325,7 @@ const Footer = () => {
                         fontSize: isMobile ? '0.8rem' : '0.875rem'
                       }}
                     >
-                      Plot No. 248, Unit - III, Kharvel Nagar, <br></br> Bhubaneswar, Khordha, Odisha - 751001
+                              NH-16 Near BPCL Fuel Pump Kanjiama, Pitapalli, <br></br> Khordha, Odisha - 752057
                     </Typography>
                   </ListItem>
                 </List>

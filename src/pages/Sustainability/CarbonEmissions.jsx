@@ -28,10 +28,10 @@ const CarbonEmissions = () => {
       </Typography>
 
       {/* Read Article Link */}
-      <Link href="#" underline="hover" color="text.primary" sx={{ display: 'inline-flex', alignItems: 'center', gap: 0.5 }}>
+      {/* <Link href="#" underline="hover" color="text.primary" sx={{ display: 'inline-flex', alignItems: 'center', gap: 0.5 }}>
         <LinkIcon fontSize="small" />
         Read Article
-      </Link>
+      </Link> */}
     </Box>
   );
 };

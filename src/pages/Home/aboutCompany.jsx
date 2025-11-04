@@ -25,8 +25,8 @@ const AboutCompany = () => (
       style={{
         maxWidth: "full",
         margin: "0 auto",
-        // paddingLeft: "100px",
-        // paddingRight: "100px",
+        paddingLeft: "30px",
+        paddingRight: "30px",
         textAlign: "center",
       }}
     >
@@ -47,17 +47,17 @@ const AboutCompany = () => (
         Welcome to <span>Juggernaut </span>Equipment Private Limited
       </Typography>
       <Typography variant="body1" paragraph>
-        JEPL is a PAN India Sales, Spares & Service provider for Heavy
-        Construction & Handling Equipment’s partnering with global giants to
-        supply & revolutionize India’s Construction equipment by offering a
-        range of Electric Construction Equipment in India like Excavators, Wheel
-        Loaders, Forklifts, Reach Stacker, Skid Steel Loaders.
+        JEPL is a PAN India Sales, Spares & Service provider of Heavy Construction and 
+        Materials Handling Equipment’s partnering with global giants to
+        supply & revolutionize India’s Construction equipment by offering an unmatched 
+        range of Electric Equipments in India like Excavators, Wheel
+        Loaders, Forklifts, Reach Stacker, Skid Steel Loaders, Off Highway Tipper.
       </Typography>
       <Typography variant="body1" paragraph>
         India produces more than 50 Lacks Tons of Carbon from Diesel burnt by
-        the entire consortium of construction equipment. With use of Lithium
-        Iron Phosphate Battery operated equipment’s we are working for a clear &
-        greener future of our present & future with huge upside potential for
+        the consortium of construction equipment. With use of Lithium
+        Iron Phosphate Battery operated equipment’s we are working for a cleaner &
+        greener future with huge upside potential for
         Return on investment for our customer.
       </Typography>
       <Typography variant="body1" paragraph>
@@ -66,15 +66,12 @@ const AboutCompany = () => (
       </Typography>
       <Typography variant="body1" paragraph>
         Though electrification is slowly gaining support globally through the
-        sales of EVs, we’ve noticed that industries like Construction, Waste
-        Management, and Agriculture are lacking in sustainable, emissions-free
-        equipment options. That’s why we’re taking the first pioneering steps
-        towards complete industrial electrification. Unlike our competitors,
-        however, we have leveraged our manufacturing tie-ups to produce the
-        first commercially-available electric heavy equipment in India.
+        sales of EVs, we’ve noticed that industries like Construction, Mining, Metal Industry, Manufacturing, and Agriculture are lacking in sustainable, emissions-free
+        equipment options. That’s why we’re taking pioneering steps
+        towards complete industrial electrification. We are the first INDIAN company to have leveraged our manufacturing tie-ups to produce the largest range of commercially-available heavy electric equipment in India.
       </Typography>
       <Typography variant="body1" paragraph>
-        Our innovative manufacturing capability, technology and expertise make
+        Our innovative technical offering and expertise make
         JEPL the dependable choice, delivering precision and power at scale. Not
         only do JEPL machines have the power, functionality, and reliability
         required by heavy industrial work, they’re all-electric.

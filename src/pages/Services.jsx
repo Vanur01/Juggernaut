@@ -24,39 +24,47 @@ const products = [
   {
     id: 1,
     image: JEL876HE,
-    title: "JEL876H-E Electric Wheel Loader",
-    specs: ["Bucket Capacity : 5.6 m³ ", "Rated Payload: 7500 kg", "Operating Weight : 23500 ± 300 kg"],
+    title: "JEL 876 Electric Wheel Loader",
+    specs: ["Bucket Capacity : 2.8 - 7 m³ ", "Rated Payload: 7500 kg", "Operating Weight : 23500 ± 300 kg"],
     features: ["Maneuverable", "Indoor use", "Ergonomic controls"],
     exploreLink: "/contact",
   },
   {
     id: 2,
     image: JEL866HE,
-    title: "JEL 866H-E Electric Wheel Loader",
-    specs: ["Bucket Capacity : 4.2 m³ ", "Rated Payload: 6500 kg", "Operating Weight : 22000 ± 300 kg "],
+    title: "JEL 866 Electric Wheel Loader",
+    specs: ["Bucket Capacity : 2.4 - 6 m³ ", "Rated Payload: 6500 kg", "Operating Weight : 22000 ± 300 kg "],
     features: ["Port operations", "High stability", "Precision controls"],
     exploreLink: "/contact",
   },
   {
     id: 3,
     image: JEL856HE,
-    title: "JEL856H-E Electric Wheel Loader",
-    specs: ["Bucket Capacity : 3.2 m³ ", "Rated Payload: 5500 kg", "Operating Weight : 17700 ± 300 kg "],
+    title: "JEL 856 Electric Wheel Loader",
+    specs: ["Bucket Capacity : 1.8 - 5 m³ ", "Rated Payload: 5500 kg", "Operating Weight : 17700 ± 300 kg "],
     features: ["Eco-friendly", "Low noise", "Fast charging"],
     exploreLink: "/contact",
   },
   {
     id: 4,
-    image: JEL833HE,
-    title: "JEL 833H-E Electric Wheel Loader",
-    specs: ["Bucket Capacity : 1.7 m³ ",  "Rated Payload: 3000 kg", "Operating Weight : 10200 ± 300 kg "],
+    image: JEL820EN,
+    title: "JEL 835 Electric Wheel Loader",
+    specs: ["Bucket Capacity : 1.4 - 3 m³ ",  "Rated Payload: 3000 kg", "Operating Weight : 10200 ± 300 kg "],
+    features: ["Port operations", "Space-saving", "Eco-friendly"],
+    exploreLink: "/contact",
+  },
+  {
+    id: 4,
+    image: JEL820EN,
+    title: "JEL 833 Electric Wheel Loader",
+    specs: ["Bucket Capacity : 1.2 - 2.5 m³ ",  "Rated Payload: 3000 kg", "Operating Weight : 10200 ± 300 kg "],
     features: ["Agile", "Space-saving", "Low maintenance"],
     exploreLink: "/contact",
   },
   {
     id: 5,
     image: JEL820EN,
-    title: "JEL 820EN Electric Wheel Loader",
+    title: "JEL 820 Electric Wheel Loader",
     specs: ["Bucket Capacity : 1.2 m³ ", "Rated Payload: 2000 kg", "Operating Weight : 6600 kg "],
     features: ["Zero emissions", "High torque", "Smart display"],
     exploreLink: "/contact",
@@ -140,8 +148,8 @@ const PremiumEquipment = () => {
                 opacity: 0.9,
               }}
             >
-              Cutting-edge construction equipment engineered for maximum
-              performance and reliability
+              Cutting-edge equipment engineered for maximum
+              performance and reliability with best in class lithium from phosphate better for unmatched results
             </Typography>
           </Box>
         </motion.div>

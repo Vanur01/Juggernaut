@@ -22,19 +22,19 @@ const products = [
   {
     id: 1,
     image: Excavator1,
-    title: 'Electric EXCAVATOR – 3T TO 25T',
-    specs: ['Multiple battery Option'],
+    title: 'Electric EXCAVATOR – 13T TO 50T',
+    specs: ['Multiple battery options', 'Grid Power', 'Swappable battery system'],
     features: ['Eco-friendly', 'Low noise', 'Fast charging'],
     exploreLink: '/contact',
   },
-  {
-    id: 2,
-    image: Excavator1,
-    title: 'Electric EXCAVATOR – 25T TO 50T',
-    specs: ['Multiple battery Option'],
-    features: ['Maneuverable', 'Indoor use', 'Ergonomic controls'],
-    exploreLink: '/contact',
-  },
+  // {
+  //   id: 2,
+  //   image: Excavator1,
+  //   title: 'Electric EXCAVATOR – 25T TO 50T',
+  //   specs: ['Multiple battery', 'Grid', 'Swappable battery system'],
+  //   features: ['Maneuverable', 'Indoor use', 'Ergonomic controls'],
+  //   exploreLink: '/contact',
+  // },
 ];
 
 
@@ -113,7 +113,7 @@ const Excavator = () => {
                 opacity: 0.9
               }}
             >
-              Cutting-edge construction equipment engineered for maximum performance and reliability
+              Cutting-edge equipment engineered for maximum performance and reliability
             </Typography>
           </Box>
         </motion.div>
@@ -229,7 +229,7 @@ const Excavator = () => {
                       </Box>
 
                       {/* Features */}
-                      <Box sx={{ 
+                      {/* <Box sx={{ 
                         display: 'flex',
                         flexWrap: 'wrap',
                         gap: 1,
@@ -249,7 +249,7 @@ const Excavator = () => {
                             }}
                           />
                         ))}
-                      </Box>
+                      </Box> */}
 
                       <Button
                         fullWidth

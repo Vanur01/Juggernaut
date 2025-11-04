@@ -15,9 +15,9 @@ const Sustainability = () => {
   const theme = useTheme();
 
   const timelineEvents = [
-    { year: "2025", description: "First electric forklifts roll out" },
-    { year: "2027", description: "EV excavator line reaches 5 models" },
-    { year: "2030", description: "Full heavy-equipment fleet electrified" },
+    { year: "2023", description: "Registers as India First EV focused mining and material handling equipment supply company." },
+    { year: "2024", description: "Sold 5T EV Loader" },
+    { year: "2025", description: "First to sell 7500 kg payload battery wheel loader" },
   ];
 
   return (

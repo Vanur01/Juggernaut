@@ -112,14 +112,12 @@ const ElectricRevolution = () => {
               }}
             >
               Juggernaut Equipment Pvt Ltd, Established in 2022 in Odisha, the
-              Steel, Mining & Aluminum hub of India with its Corporate Head
-              Office around the country’s capital in Gurgaon. JEPL has joined
+              Steel, Mining & Aluminum hub of India. JEPL has joined
               hands with multiple global giants to Manufacture & revolutionize
-              the India’s Construction equipment by offer a range of Electric
-              Machines Excavators, Wheel Loaders, Forklifts. JEPL shall be
+              the India’s Construction equipment by offer a vast range of Electric
+              Excavators, Wheel Loaders, Forklifts. JEPL shall be
               involved in Sales – Machines & Parts & After Sales Service of the
-              machines. The machines shall be manufactured in India by January
-              2026
+              machines accross the country.
             </Typography>
 
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
@@ -154,7 +152,7 @@ const ElectricRevolution = () => {
       <AboutCompany />
 
       {/* <StrategicAlliance /> */}
-      <RDInnovation />
+      {/* <RDInnovation /> */}
       {/* <MilestonesTimeline /> */}
       {/* <WorldwideReach /> */}
       {/* <NextFrontier /> */}

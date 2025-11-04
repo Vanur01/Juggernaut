@@ -35,10 +35,10 @@ const Navbar = () => {
       name: "Products", 
       path: "/products",
       dropdown: [
-        { name: "Excavators", path: "/products/excavators" },
-        { name: "Forklifts", path: "/products/forklifts" },
-        { name: "Port Equipment", path: "/products/portEquipment" },
         { name: "Wheel Loaders", path: "/products/wheel-loaders" },
+        { name: "Forklifts", path: "/products/forklifts" },
+        { name: "Excavators", path: "/products/excavators" },
+        { name: "Port Equipment", path: "/products/portEquipment" },
         { name: "Mining Tippers", path: "/products/MiningTippers" },
       ]
     },

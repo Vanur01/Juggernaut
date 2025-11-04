@@ -40,12 +40,12 @@ const Feature = () => {
   const features = [
     {
       icon: <VolumeOffIcon sx={{ fontSize: { xs: 40, sm: 45, md: 50 } }} />,
-      title: '60% Quieter Operation',
+      title: '70% Quieter Operation',
       description: 'Significantly reduced noise levels protect your crew\'s hearing.',
     },
     {
       icon: <BuildIcon sx={{ fontSize: { xs: 40, sm: 45, md: 50 } }} />,
-      title: 'Up to 40% Lower Maintenance',
+      title: 'Up to 60% Lower Maintenance',
       description: 'Fewer moving parts mean lower TCO vs. diesel.',
     },
     {

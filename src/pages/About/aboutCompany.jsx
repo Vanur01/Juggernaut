@@ -46,20 +46,17 @@ const AboutCompany = () => (
         About <span>Juggernaut </span>
       </Typography>
       <Typography variant="body1" paragraph>
-        JEPL is dedicated in the research and development of Electric material
-        handling equipment and construction machinery. The current products
+        JEPL is dedicated in the research and development of Electric Material
+        Handling Equipment and Construction Machinery. The current products
         ranges cover:
       </Typography>
       <Typography variant="body1" paragraph>
-        New energy strategic direction products including lithium battery
-        electric crawler excavator/wheel loader, lithium battery electric wheel
-        loader, lithium battery electric heavy-duty forklift, Reach Stacker,
+        Lithium battery
+        Crawler Excavator, Wheel Loader,Heavy-duty Forklift, Reach Stacker,
         Skid Steel Loader etc.
       </Typography>
       <Typography variant="body1" paragraph>
-        Material handling equipment including heavy duty forklift, rough
-        terrain forklift, telescopic forklift, furnace-charging vehicle &
-        furnace-tending vehicle, crane forklift, container reach stacker, etc.
+        Other equipments include  Rough Terrain Forklift, Telescopic Forklift, Furnace-Charging Vehicle etc.
       </Typography>
     </div>
   </Box>

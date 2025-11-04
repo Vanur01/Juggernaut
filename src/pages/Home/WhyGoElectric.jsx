@@ -9,9 +9,8 @@ const WhyGoElectric = () => {
   const theme = useTheme();
 
   const benefits = [
-    { text: 'Reduced Fuel & Consumables: No diesel, oil or filters.' },
-    { text: 'Lower Maintenance: Up to 40% savings vs. ICE models.' },
-    { text: 'Quieter Operation: Sound levels 60% lower.' },
+    { text: 'Lower Maintenance: Up to 60% savings vs. ICE models.' },
+    { text: 'Quieter Operation: Sound levels 70% lower.' },
     { text: 'Instant Torque & Smooth Control: Electric drivetrains deliver precision.' },
   ];
 
@@ -106,7 +105,7 @@ const WhyGoElectric = () => {
                     opacity: 0.9
                   }}
                 >
-                  Moving to electric heavy-equipment isn't just green—it's smart business. Our machines deliver lower operating costs, quieter jobsites and zero emissions without sacrificing power.
+                  Moving to electric heavy-equipment isn't just green—it's smart business. Our machines deliver lower operating costs, quieter jobsites and almost zero emissions without sacrificing power.
                 </Typography>
 
                 {/* Benefits List */}

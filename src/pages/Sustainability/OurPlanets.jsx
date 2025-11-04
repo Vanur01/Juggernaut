@@ -93,7 +93,7 @@ const OurPlanets = () => {
               <Typography variant="body1" color="text.secondary" mt={1} sx={{ lineHeight: 1.7 }}>
                 At JEPL, we are committed to making a difference — in
                  people's lives, in communities, and for the planet
-                We do business with purpose: developing clean-technology solutions that enable a more sustainable and equitable world for future generations.
+                We do business with purpose: developing clean-technology solutions that enable a more sustainable and equitable world for future generations with huge financial gain for our esteemed customers.
               </Typography>
 
               <Grid container spacing={3} mt={3}>

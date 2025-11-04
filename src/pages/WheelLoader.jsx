@@ -46,7 +46,7 @@ const WheelLoaderSection = () => {
             sx={{ maxWidth: "600px", fontSize: "18px" }}
           >
           Juggernaut Equipments delivers reliable, high-performance heavy machinery 
-          solutions built for speed, safety, and durability.
+          solutions built for High performance, safety, and durability.
           </Typography>
         </Container>
       </Box>

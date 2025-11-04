@@ -46,7 +46,7 @@ const LeadingByDoing = () => {
   const stats = [
     {
       icon: <ElectricBoltIcon  sx={{ fontSize: 30 , color:"#8bc34a" }} />,
-      value: '80%',
+      value: '70%',
       label: 'Reduction in CO₂ emissions',
       description: 'Compared to traditional diesel equipment'
     },
@@ -56,12 +56,12 @@ const LeadingByDoing = () => {
       label: 'Electric Machinery Line by 2027',
       description: 'Full transition to electric across all product lines'
     },
-    {
-      icon: <RecyclingIcon  sx={{ fontSize: 30 , color:"#8bc34a" }} />,
-      value: '95%',
-      label: 'Recyclable Components',
-      description: 'Sustainable materials in our manufacturing'
-    },
+    // {
+    //   icon: <RecyclingIcon  sx={{ fontSize: 30 , color:"#8bc34a" }} />,
+    //   value: '95%',
+    //   label: 'Recyclable Components',
+    //   description: 'Sustainable materials in our manufacturing'
+    // },
   ];
 
   return (
@@ -140,7 +140,7 @@ const LeadingByDoing = () => {
             fontSize: { xs: '0.9rem', sm: '1rem' }
           }}
         >
-          Our commitment to sustainability isn't just talk. These numbers represent real progress in our mission to transform heavy industry.
+          Our commitment to sustainability isn't just talk. These numbers represent real progress in our mission to transform heavy equipments.
         </Typography>
 
         {/* Stats Grid */}
