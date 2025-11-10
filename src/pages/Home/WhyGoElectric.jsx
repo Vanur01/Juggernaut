@@ -98,9 +98,9 @@ const WhyGoElectric = () => {
                   variant="body1"
                   sx={{
                     mb: { xs: 3, md: 4 },
-                    lineHeight: 1.7,
+                    lineHeight: 1.9,
                     fontSize: { xs: '1rem', sm: '1.05rem' },
-                    maxWidth: { xs: 'auto', md: '500px' },
+                    maxWidth: { xs: 'auto', md: '420px' },
                     mx: 'auto',
                     opacity: 0.9
                   }}
@@ -110,7 +110,7 @@ const WhyGoElectric = () => {
 
                 {/* Benefits List */}
                 <Box sx={{ mb: { xs: 4, md: 5 } }}>
-                  {benefits.map((benefit, index) => (
+                  {/* {benefits.map((benefit, index) => (
                     <Box 
                       key={index} 
                       sx={{ 
@@ -146,7 +146,7 @@ const WhyGoElectric = () => {
                         {benefit.text}
                       </Typography>
                     </Box>
-                  ))}
+                  ))} */}
                 </Box>
               </Box>
             </motion.div>

@@ -15,16 +15,19 @@ import {
   ListItemText,
   Menu,
   MenuItem,
+  Collapse,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import ExpandLessIcon from "@mui/icons-material/ExpandLess";
 import { Link } from "react-router-dom";
-import logoImage from "../assets/Home/logo.png"; // Import your logo image
+import logoImage from "../assets/Home/logo.png";
 
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [anchorEl, setAnchorEl] = useState(null);
+  const [mobileProductsOpen, setMobileProductsOpen] = useState(false);
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
 
@@ -48,11 +51,15 @@ const Navbar = () => {
 
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen);
+    if (mobileOpen) {
+      setMobileProductsOpen(false);
+    }
   };
 
   const handleContactRedirect = () => {
     if (mobileOpen) {
       setMobileOpen(false);
+      setMobileProductsOpen(false);
     }
   };
 
@@ -62,6 +69,10 @@ const Navbar = () => {
 
   const handleMenuClose = () => {
     setAnchorEl(null);
+  };
+
+  const handleMobileProductsToggle = () => {
+    setMobileProductsOpen(!mobileProductsOpen);
   };
 
   const renderDesktopMenu = () => {
@@ -165,7 +176,7 @@ const Navbar = () => {
               <>
                 <ListItem
                   button
-                  onClick={() => setMobileOpen(true)}
+                  onClick={handleMobileProductsToggle}
                   sx={{
                     px: 3,
                     py: 1.5,
@@ -179,36 +190,47 @@ const Navbar = () => {
                     primaryTypographyProps={{
                       fontWeight: 500,
                       color: "text.primary",
-                      textAlign: "center",
+                      textAlign: "left",
                       fontSize: "1.1rem",
                     }}
                   />
+                  {mobileProductsOpen ? (
+                    <ExpandLessIcon sx={{ color: "text.primary" }} />
+                  ) : (
+                    <ExpandMoreIcon sx={{ color: "text.primary" }} />
+                  )}
                 </ListItem>
-                {item.dropdown.map((subItem) => (
-                  <ListItem
-                    key={subItem.name}
-                    component={Link}
-                    to={subItem.path}
-                    onClick={handleDrawerToggle}
-                    sx={{
-                      px: 4,
-                      py: 1,
-                      "&:hover": {
-                        backgroundColor: "rgba(139, 195, 74, 0.1)",
-                      },
-                    }}
-                  >
-                    <ListItemText
-                      primary={subItem.name}
-                      primaryTypographyProps={{
-                        fontWeight: 400,
-                        color: "text.primary",
-                        textAlign: "center",
-                        fontSize: "1rem",
-                      }}
-                    />
-                  </ListItem>
-                ))}
+                <Collapse in={mobileProductsOpen} timeout="auto" unmountOnExit>
+                  <List component="div" disablePadding>
+                    {item.dropdown.map((subItem) => (
+                      <ListItem
+                        key={subItem.name}
+                        component={Link}
+                        to={subItem.path}
+                        onClick={handleDrawerToggle}
+                        sx={{
+                          pl: 6,
+                          pr: 3,
+                          py: 1.2,
+                          backgroundColor: "rgba(139, 195, 74, 0.05)",
+                          "&:hover": {
+                            backgroundColor: "rgba(139, 195, 74, 0.15)",
+                          },
+                        }}
+                      >
+                        <ListItemText
+                          primary={subItem.name}
+                          primaryTypographyProps={{
+                            fontWeight: 400,
+                            color: "text.primary",
+                            textAlign: "left",
+                            fontSize: "1rem",
+                          }}
+                        />
+                      </ListItem>
+                    ))}
+                  </List>
+                </Collapse>
               </>
             ) : (
               <ListItem
@@ -228,7 +250,7 @@ const Navbar = () => {
                   primaryTypographyProps={{
                     fontWeight: 500,
                     color: "text.primary",
-                    textAlign: "center",
+                    textAlign: "left",
                     fontSize: "1.1rem",
                   }}
                 />
