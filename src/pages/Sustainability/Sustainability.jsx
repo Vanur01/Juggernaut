@@ -1,7 +1,6 @@
 import React from 'react';
-import { Box, Typography, Button, useMediaQuery, useTheme } from '@mui/material';
+import { Box, Typography, useMediaQuery, useTheme } from '@mui/material';
 import FlashOnIcon from '@mui/icons-material/FlashOn';
-import PlayCircleOutlineIcon from '@mui/icons-material/PlayCircleOutline';
 import { motion } from 'framer-motion';
 import OurPlanets from './OurPlanets';
 import DieselToElectric from './DieselToElectric';
@@ -55,15 +54,6 @@ const HeroSection = () => {
       rotate: 10,
       transition: { duration: 0.3 }
     }
-  };
-
-  const buttonVariants = {
-    hover: {
-      y: -3,
-      boxShadow: "0 10px 20px rgba(0,0,0,0.2)",
-      transition: { duration: 0.3 }
-    },
-    tap: { scale: 0.95 }
   };
 
   return (

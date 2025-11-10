@@ -33,14 +33,6 @@ const OurPlanets = () => {
     }
   };
 
-  const cardVariants = {
-    hover: {
-      y: -5,
-      boxShadow: theme.shadows[6],
-      transition: { duration: 0.3 }
-    }
-  };
-
   return (
     <Box 
       component={motion.div}
