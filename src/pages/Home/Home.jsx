@@ -20,7 +20,7 @@ import AboutCompany from "./aboutCompany";
 import banner from "../../assets/Home/banner.png";
 import banner2 from "../../assets/Home/Frame2.png";
 import banner3 from "../../assets/Home/Frame3.png";
-import banner4 from "../../assets/Home/Frame4.jpg";
+import banner4 from "../../assets/Home/Frame4.png";
 import banner5 from "../../assets/Home/Frame5.png";
 import banner6 from "../../assets/Home/Frame6.jpg";
 // import banner1 from "../../assets/Home/banner1.jpeg";

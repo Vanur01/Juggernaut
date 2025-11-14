@@ -45,7 +45,7 @@ const Feature = () => {
     },
     {
       icon: <BuildIcon sx={{ fontSize: { xs: 40, sm: 45, md: 50 } }} />,
-      title: 'Up to 60% Lower Maintenance',
+      title: '60% Lower Maintenance',
       description: 'Fewer moving parts mean lower TCO vs. diesel.',
     },
     {

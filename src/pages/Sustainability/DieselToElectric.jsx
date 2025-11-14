@@ -296,13 +296,13 @@ const DieselToElectric = () => {
         variants={itemVariants}
         variant="body2"
         fontStyle="italic"
-        color="text.secondary"
-        mt={{ xs: 3, sm: 4 }}
+color="black"        mt={{ xs: 3, sm: 4 }}
         sx={{
           maxWidth: 600,
           mx: "auto",
           px: { xs: 1, sm: 2 },
-          fontSize: { xs: "0.75rem", sm: "0.875rem" },
+          fontSize: { xs: "1rem", sm: "1rem" },
+           fontWeight: "bold",
         }}
       >
         This change is bold. It's challenging. But we're taking it one unit at a
